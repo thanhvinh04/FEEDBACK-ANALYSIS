@@ -21,8 +21,8 @@
    - build_vocabulary: mã hóa các từ có trong các comment thành số tương ứng
    - max_length: tính độ dài comment dài nhất -> chuẩn hóa tất cả các vector sau khi xử lý về cùng độ dài này
    - padded_sequence: Tiến hành mã hóa các chữ thành số và ghép vào các câu tương ứng -> đối với các comment vector chuẩn hóa nhỏ hơn max_length -> thêm các giá trị 0 và đuôi để chuẩn hóa thành cùng độ dài <br>
- **B3:** Mô hình: Dùng random_search để chọn ra các hyperparameters tốt nhất dựa trên kết quả val_accuracy <br>
- **B4:** Lưu mô hình
+**B3:** Mô hình: Dùng random_search để chọn ra các hyperparameters tốt nhất dựa trên kết quả val_accuracy <br>
+**B4:** Lưu mô hình
 
 **+ Code Sentiment_comment_traditional_way:** Tạo mô hình machine learning cho việc Sentiment comment <br>
  **B1, B2:** gần tương tự Code Sentiment_NK <br>
