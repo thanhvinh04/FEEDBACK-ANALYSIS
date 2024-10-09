@@ -9,7 +9,7 @@
  - Dữ liệu để train mô hình lưu trong folder train_category
 
 **RUN CODE TẠO MÔ HÌNH:**
-+ **Code Sentiment_NK**: tạo mô hình deep learning cho việc Sentiment cho từng đoạn nhỏ trong comment sau khi tách
++ **Code Sentiment_NK**: tạo mô hình deep learning cho việc Sentiment cho từng đoạn nhỏ trong comment sau khi tách <br>
  **B1:** Cài đặt các thư viện cần thiết
  **B2:**
   * Đọc dữ liệu train từ file csv vào df
