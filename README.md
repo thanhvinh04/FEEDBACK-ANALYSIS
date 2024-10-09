@@ -20,7 +20,7 @@
    - pos_tag_convert: gán các loại từ (ADJ, VERB, NOUN, ADV) cho các từ vừa tách
    - build_vocabulary: mã hóa các từ có trong các comment thành số tương ứng
    - max_length: tính độ dài comment dài nhất -> chuẩn hóa tất cả các vector sau khi xử lý về cùng độ dài này
-   - padded_sequence: Tiến hành mã hóa các chữ thành số và ghép vào các câu tương ứng -> đối với các comment vector chuẩn hóa nhỏ hơn max_length -> thêm các giá trị 0 và đuôi để chuẩn hóa thành cùng độ dài
+   - padded_sequence: Tiến hành mã hóa các chữ thành số và ghép vào các câu tương ứng -> đối với các comment vector chuẩn hóa nhỏ hơn max_length -> thêm các giá trị 0 và đuôi để chuẩn hóa thành cùng độ dài <br>
 **B3:** Mô hình: Dùng random_search để chọn ra các hyperparameters tốt nhất dựa trên kết quả val_accuracy <br>
 **B4:** Lưu mô hình
 
